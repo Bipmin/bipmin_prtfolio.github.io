@@ -1,0 +1,161 @@
+.ityped_position{
+  margin-top: 100px;
+  margin-left: 35%;
+}
+
+.ityped{
+  font-size: 3rem;
+}
+
+#particles{
+  position: absolute;
+  width:100%;
+  height:260%;
+  z-index: -100;
+}
+
+.menu_box{
+  position: relative;
+  margin-top: 150px;
+}
+
+.link_positionA{
+  position: absolute;
+  left: 18%;
+}
+
+.menu_boxA{
+  width: 100%;
+}
+
+.link_positionB{
+  position: absolute;
+  left: 35%;
+  top: 100px;
+}
+
+.link_positionC{
+  position: absolute;
+  left: 52%;
+  bottom: 220px;
+}
+
+.link_positionD{
+  position: absolute;
+  left: 69%;
+  bottom: 120px;
+}
+
+.hexagonA {
+  width: 190px;
+  height: 110px;
+  display: block;
+  position: relative;
+  background: #000;
+  transition: all 0.2s linear;
+  border-left: 0.1rem solid #1779ff;
+  border-right: 0.1rem solid #1779ff;
+}
+
+.hexagonA span {
+  width: 100%;
+  height: 90px;
+  line-height: 90px;
+  color: #000;
+  text-align: center;
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+
+.hexagonA:before,
+.hexagonA:after {
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #000;
+  transition: all 0.2s linear;
+  z-index: 0;
+  border-left: 0.1rem solid #1779ff;
+  border-right: 0.1rem solid #1779ff;
+}
+
+.hexagonA:before {
+  transform: rotate(60deg);
+}
+
+.hexagonA:after {
+  transform: rotate(-60deg);
+}
+
+.hexagonA:hover,
+.hexagonA:hover:before,
+.hexagonA:hover:after {
+  background: #A7F8FF ;
+  transform: scale(1);
+}
+
+.select_neon{
+  margin: 0;
+  position: absolute;
+  color: #A7F8FF;
+  text-shadow: 0 0 20px #1779ff;
+  padding: 5px 20px 0 20px;
+  font-size: 22px;
+}
+
+.select_neon:hover{
+  color: #000 ;
+}
+
+
+@media screen and (max-width:480px) { /*ウィンドウ幅が767px以上の場合に適用*/
+
+#particles{
+  position: absolute;
+  width:100%;
+  height:180%;
+  z-index: -100;
+}
+
+.ityped_position{
+  margin-top: 100px;
+  margin-left: 10px;
+}
+
+.ityped{
+  font-size: 1.7rem;
+}
+
+main{
+  height: 1200px;
+}
+
+.menu_box{
+  position: relative;
+  margin-top: 150px;
+}
+
+.link_positionA{
+  left: 25%;
+}
+
+.link_positionB{
+  left: 25%;
+  top: 150px;
+}
+
+.link_positionC{
+  left: 25%;
+  top: 300px;
+}
+
+.link_positionD{
+  left: 25%;
+  top: 450px;
+}
+
+}
