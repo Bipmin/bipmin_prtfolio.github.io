@@ -90,3 +90,37 @@
     padding-top: 10px;
     padding-left: 5px;
 }
+
+@media screen and (max-width:480px) {
+
+.hamburgerList div{
+    padding-bottom: 25px;
+}
+
+
+.hamburgerList div p{
+    font-size: 15px;
+}
+.hamburgerList div a p{
+    font-size: 12px;
+    padding-top: 5px;
+    padding-left: 5px;
+
+}
+
+#nav-content {
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 90%;
+    max-width: 160px;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    transition: .3s ease-in-out;
+    -webkit-transform: translateX(-105%);
+    transform: translateX(-105%);
+}
+
+}
