@@ -149,9 +149,7 @@ display: inline-block;
   width: 100%;
 }
 
-
-
-@media screen and (max-width:480px) { /*ウィンドウ幅が767px以上の場合に適用*/
+@media screen and (max-width:480px) {
 
 #particles{
   position: absolute;
@@ -159,5 +157,4 @@ display: inline-block;
   height:180%;
   z-index: -100;
 }
-
 }
