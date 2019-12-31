@@ -126,6 +126,21 @@
   z-index: -100;
 }
 
+.profilse_box{
+  display: inline-block;
+  width: 100%;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.profilse_box p{
+  color: #A7F8FF  ;
+  text-shadow: 0 0 20px #1779ff;
+  font-size: 22px;
+}
+
+
 .profilse_face{
   float: left;
   width: 240px;
@@ -142,10 +157,16 @@
 
 .profilse_History{
   display: inline-block;
-  font-size: 30px;
+  font-size: 25px;
   margin-left: 5%;
   width: 90%;
 }
-main{
+.profilse_History p{
+  line-height: 25px;
+  font-size: 17px;
+  color: #A7F8FF  ;
+  text-shadow: 0 0 20px #1779ff;
+  opacity: 0;
+  transition: 1.2s;
 }
 }
