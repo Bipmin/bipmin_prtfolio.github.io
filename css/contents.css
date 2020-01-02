@@ -35,6 +35,11 @@ video{
   margin-left: 10%;
 }
 
+iframe{
+  width: 560px;
+  height: 315px;
+}
+
 .video_list{
   margin-bottom: 30px;
   display: inline-block;
@@ -121,7 +126,7 @@ video{
   transition-delay: 1.2s;
 }
 
-@media screen and (max-width:480px) { /*ウィンドウ幅が767px以上の場合に適用*/
+@media screen and (max-width:480px) {
 
 #particles{
   position: absolute;
@@ -130,4 +135,38 @@ video{
   z-index: -100;
 }
 
+.title p{
+  font-size: 50px;
+  color: #A7F8FF  ;
+  text-shadow: 0 0 20px #1779ff;
+} 
+.contents_list{
+  margin-bottom: 100px;
+  margin-left: 0%;
+}
+
+iframe{
+  width: 370px;
+  height: 215px;
+}
+
+.video_status{
+  margin-top: 35px;
+  width: 80%;
+  margin-left: 10%;
+  display: inline-block;
+  font-size: 30px;
+}
+
+.video_History{
+  font-size: 25px;
+  margin-left: 10%;
+  width: 80%;
+}
+
+.video_History li{
+  line-height: 80px;
+  transition: 0.8s;
+  opacity: 0;
+}
 }
