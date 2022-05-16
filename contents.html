@@ -1,226 +1,300 @@
 ﻿<!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>contents</title>
-        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-        <!-- jQuery読み込み -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-        <!-- ityped読み込み -->
-        <script src="https://unpkg.com/ityped@0.0.5"></script>
-        <!-- スタイルシートの読み込み -->
-        <link rel="stylesheet" href="./css/reset.css">
-        <link rel="stylesheet" href="./css/hamburger.css">
-        <link rel="stylesheet" href="./css/common.css">
-        <link rel="stylesheet" href="./css/contents.css">
-        <link rel="stylesheet" href="./css/footer.css">
-        <link rel="stylesheet" href="./css/profilse.css">
-    </head>
-    <body>
-        <header>
-            <div class="header_top">
-                <div id="nav-drawer">
-                    <input id="nav-input" type="checkbox" class="nav-unshown">
-                    <label id="nav-open" class="" for="nav-input"><span></span></label>
-                    <label class="nav-unshown" id="nav-close" for="nav-input"></label>
-                    <div id="nav-content" class="hamburgerList">
-                        <div><p class="neon">トップページ</p>
-                            <a href="./top.html" class="">
-                                <p class="neon">>&nbsp;&nbsp;トップ</p></a>
-                            <a href="./top.html#profilse" class="">
-                                <p class="neon">>&nbsp;&nbsp;自己紹介</p></a>
-                            <a href="./top.html#SNS" class="">
-                                <p class="neon">>&nbsp;&nbsp;SNS</p></a>
-                        </div>
-                        <div><p class="head neon">コンテンツページ</p>
-                            <a href="./contents.html" class="">
-                                <p class="neon">>&nbsp;&nbsp;コンテンツ</p></a>
-                        </div>
-                        <div><p class="head neon">アーカイブページ</p>
-                            <a href="#profilse" class="">
-                                <p class="neon">>&nbsp;&nbsp;アーカイブ</p></a>
-                        </div>
-                        <div><p class="head neon">お問い合わせページ</p>
-                            <a href="#profilse" class="">
-                                <p class="neon">>&nbsp;&nbsp;お問い合わせ</p></a>
-                        </div>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>contents</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <!-- ityped読み込み -->
+    <script src="https://unpkg.com/ityped@0.0.5"></script>
+    <!-- スタイルシートの読み込み -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/hamburger.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/contents.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/profilse.css">
+</head>
+<body>
+    <header>
+        <div class="header_top">
+            <div id="nav-drawer">
+                <input id="nav-input" type="checkbox" class="nav-unshown">
+                <label id="nav-open" class="" for="nav-input"><span></span></label>
+                <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+                <div id="nav-content" class="hamburgerList">
+                    <div>
+                        <p class="neon">トップページ</p>
+                        <a href="./top.html" class="">
+                            <p class="neon">>&nbsp;&nbsp;トップ</p>
+                        </a>
+                        <a href="./top.html#profilse" class="">
+                            <p class="neon">>&nbsp;&nbsp;自己紹介</p>
+                        </a>
+                        <a href="./top.html#SNS" class="">
+                            <p class="neon">>&nbsp;&nbsp;SNS</p>
+                        </a>
+                    </div>
+                    <div>
+                        <p class="head neon">コンテンツページ</p>
+                        <a href="./contents.html" class="">
+                            <p class="neon">>&nbsp;&nbsp;コンテンツ</p>
+                        </a>
+                    </div>
+                    <div>
+                        <p class="head neon">アーカイブページ</p>
+                        <a href="#profilse" class="">
+                            <p class="neon">>&nbsp;&nbsp;アーカイブ</p>
+                        </a>
+                    </div>
+                    <div>
+                        <p class="head neon">お問い合わせページ</p>
+                        <a href="#profilse" class="">
+                            <p class="neon">>&nbsp;&nbsp;お問い合わせ</p>
+                        </a>
                     </div>
                 </div>
             </div>
-            <img class="headerLogo" src="./images/383202.jpg">
-        </header>
-        <div id="particles"></div>
-        <main>
-            <div class="title neon">
-                <p>contents page</p>
-            </div>
-            <div class="contents">
-                <div class="borderline"></div>
-                  <div class="contents_list">
-                    <div class="contents video_list">
-                        <iframe src="https://player.vimeo.com/video/710378664?h=24d6997804&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="6656" height="1920" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="1minute_Projection_Mapping_in_Tokyo2021"></iframe>
-                        <div class="video_status neon clearfix">
-                            <ul>
-                                <li>name<p>プロジェクションマッピング</p></li>
-                                <li>software<p>Unity</p></li>
-                                <li>period<p>2021月7月～2021月9月</p></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="video_History neon">
+        </div>
+        <img class="headerLogo" src="./images/383202.jpg">
+    </header>
+    <div id="particles"></div>
+    <main>
+        <div class="title neon">
+            <p>contents page</p>
+        </div>
+        <div class="contents">
+            <div class="borderline"></div>
+            <div class="contents_list">
+                <div class="contents video_list">
+                    <iframe src="https://player.vimeo.com/video/710409682?h=d3e2856ada&amp;title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1920" height="1080" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Cube"></iframe>
+                    <div class="video_status neon clearfix">
                         <ul>
-                            <li>Details<p><a href="https://youtu.be/8rTy8-bI3bg">さらざんまいのエンディング</a>
-                                を初めて見たときに普段見ている景色にデジタルを入れ込むとエンタメ性を向上させれる事に面白みを感じ、見様見真似でafter  effects体験期間中に練習として作成、結構浮いてる感じが出てしまっており本当はまだ作り込みたい、これをARグラス等で手軽に見れるようになったら需要が高まりそう（after  effectsの製品版欲しいなぁ…）</p></li>
+                            <li>name<p>プロジェクションマッピング</p></li>
+                            <li>software<p>Blender</p></li>
+                            <li>period<p>2022月2月</p></li>
                         </ul>
                     </div>
                 </div>
-                <div class="contents_list">
-                    <div class="contents video_list">
-                        <iframe src="https://www.youtube.com/embed/5ahrRXa1LqY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <div class="video_status neon clearfix">
-                            <ul>
-                                <li>name<p>初めてのシェイプアニメーション</p></li>
-                                <li>software<p>after  effects</p></li>
-                                <li>period<p>2019月12月</p></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="video_History neon">
-                        <ul>
-                            <li>Details<p><a href="https://youtu.be/8rTy8-bI3bg">さらざんまいのエンディング</a>
-                                を初めて見たときに普段見ている景色にデジタルを入れ込むとエンタメ性を向上させれる事に面白みを感じ、見様見真似でafter  effects体験期間中に練習として作成、結構浮いてる感じが出てしまっており本当はまだ作り込みたい、これをARグラス等で手軽に見れるようになったら需要が高まりそう（after  effectsの製品版欲しいなぁ…）</p></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="contents_list">
-                    <div class="contents video_list">
-                        <iframe src="https://www.youtube.com/embed/wNXQVoYSECU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <div class="video_status neon clearfix">
-                            <ul>
-                                <li>name<p>SkySword</p></li>
-                                <li>hardware<p>HTC vive</p></li>
-                                <li>period<p>2018月7月〜2018月8月</p></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="video_History neon">
-                        <ul>
-                            <li>Details<p>VRアカデミーにて個人開発で2018/08/25に渋谷で行われた【VR FES Vol.3】に出展、
-                                    左手にシューター右手にソードを持ちシューターのトリガーを押すことにより移動しながらソードを振って空に飛んでいるドラゴンを倒す作品、
-                                    空を飛んでるような感覚と、直感的な腕を使った体験ができます。</p></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="contents_list">
-                    <div class="contents video_list">
-                        <iframe src="https://www.youtube.com/embed/868zzf4e4og" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <div class="video_status neon clearfix">
-                            <ul>
-                                <li>name<p>snowboard VR</p></li>
-                                <li>hardware<p>FOVE</p></li>
-                                <li>period<p>2018月6月</p></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="video_History neon">
-                        <ul>
-                            <li>Details<p>VRアカデミーにてチーム開発を行い学校内のVRハッカソンにて出展、使用したFOVEの特徴である視線追跡機能を 
-                                活用し片目を閉じるとplayerは閉じた目の方向に曲がるようになっており紫色のポールの間を通ってゴールを目指す作品。</p></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="contents_list">
-                    <div class="contents video_list">
-                        <iframe src="https://www.youtube.com/embed/mAd6NtVe0gU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <div class="video_status neon clearfix">
-                            <ul>
-                                <li>name<p>名刺を出した瞬間に勝利する</p></li>
-                                <li>hardware<p>iPhone6s以降</p></li>
-                                <li>period<p>2019月3月</p></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="video_History neon">
-                        <ul>
-                            <li>Details<p>ARkitの触れの部分として、完全に遊び心で開発。</p></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="contents_list">
-                    <div class="contents video_list">
-                        <iframe src="https://www.youtube.com/embed/5ZlcN4MkHp0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <div class="video_status neon clearfix">
-                            <ul>
-                                <li>name<p>ARイベンター</p></li>
-                                <li>hardware<p>スマホ</p></li>
-                                <li>period<p>2019月5月〜2019月8月</p></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="video_History neon">
-                        <ul>
-                            <li>Details<p>VRアカデミーのメンバーとチーム開発で2019/08/24に渋谷で行われた【VR FES Vol.5】に出展、
-                                    アカデミーの学生作品を一覧で確認しているサーバと接続されておりwebサイトからいいねが可能、
-                                    いいねの数と同期しており、いいねの数によってARで表示されるオーラのサイズも変化するようになっており一目でどれが人気の作品かがわかるようになっている。</p></li>
-                        </ul>
-                    </div>
+                <div class="video_History neon">
+                    <ul>
+                        <li>
+                            Details<p>
+                                Blenderの練習
+                            </p>
+                        </li>
+                    </ul>
                 </div>
             </div>
+            <div class="contents_list">
+                <div class="contents video_list">
+                    <iframe src="https://player.vimeo.com/video/710378664?h=24d6997804&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="6656" height="1920" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="1minute_Projection_Mapping_in_Tokyo2021"></iframe>
+                    <div class="video_status neon clearfix">
+                        <ul>
+                            <li>name<p>1minute_Projection_Mapping_in_Tokyo2021</p></li>
+                            <li>software<p>Unity</p></li>
+                            <li>period<p>2021月7月～2021月9月</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="video_History neon">
+                    <ul>
+                        <li>
+                            Details<p>
+                                <a href="https://youtu.be/FFf9oE6JBMk">1minute_Projection_Mapping_in_Tokyo2021</a>
+                                を初めて見たときに普段見ている景色にデジタルを入れ込むとエンタメ性を向上させれる事に面白みを感じ、見様見真似でafter  effects体験期間中に練習として作成、結構浮いてる感じが出てしまっており本当はまだ作り込みたい、これをARグラス等で手軽に見れるようになったら需要が高まりそう（after  effectsの製品版欲しいなぁ…）
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="contents_list">
+                <div class="contents video_list">
+                    <iframe src="https://youtube.com/shorts/zCEs_fLriQE?feature=share" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="video_status neon clearfix">
+                        <ul>
+                            <li>name<p>3Dキャラを触りたい</p></li>
+                            <li>software<p>Unity</p></li>
+                            <li>period<p>2021月5月</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="video_History neon">
+                    <ul>
+                        <li>
+                            Details<p>
+                                LookingGlassPortraitを先着購入できたのでLeapMotionを繋げて中のキャラクターを触れるようにしてみた
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="contents_list">
+                <div class="contents video_list">
+                    <iframe src="https://www.youtube.com/embed/5ahrRXa1LqY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="video_status neon clearfix">
+                        <ul>
+                            <li>name<p>初めてのシェイプアニメーション</p></li>
+                            <li>software<p>after  effects</p></li>
+                            <li>period<p>2019月12月</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="video_History neon">
+                    <ul>
+                        <li>
+                            Details<p>
+                                <a href="https://youtu.be/8rTy8-bI3bg">さらざんまいのエンディング</a>
+                                を初めて見たときに普段見ている景色にデジタルを入れ込むとエンタメ性を向上させれる事に面白みを感じ、見様見真似でafter  effects体験期間中に練習として作成、結構浮いてる感じが出てしまっており本当はまだ作り込みたい、これをARグラス等で手軽に見れるようになったら需要が高まりそう（after  effectsの製品版欲しいなぁ…）
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contents_list">
+                <div class="contents video_list">
+                    <iframe src="https://www.youtube.com/embed/wNXQVoYSECU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="video_status neon clearfix">
+                        <ul>
+                            <li>name<p>SkySword</p></li>
+                            <li>hardware<p>HTC vive</p></li>
+                            <li>period<p>2018月7月〜2018月8月</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="video_History neon">
+                    <ul>
+                        <li>
+                            Details<p>
+                                VRアカデミーにて個人開発で2018/08/25に渋谷で行われた【VR FES Vol.3】に出展、
+                                左手にシューター右手にソードを持ちシューターのトリガーを押すことにより移動しながらソードを振って空に飛んでいるドラゴンを倒す作品、
+                                空を飛んでるような感覚と、直感的な腕を使った体験ができます。
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contents_list">
+                <div class="contents video_list">
+                    <iframe src="https://www.youtube.com/embed/868zzf4e4og" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="video_status neon clearfix">
+                        <ul>
+                            <li>name<p>snowboard VR</p></li>
+                            <li>hardware<p>FOVE</p></li>
+                            <li>period<p>2018月6月</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="video_History neon">
+                    <ul>
+                        <li>
+                            Details<p>
+                                VRアカデミーにてチーム開発を行い学校内のVRハッカソンにて出展、使用したFOVEの特徴である視線追跡機能を
+                                活用し片目を閉じるとplayerは閉じた目の方向に曲がるようになっており紫色のポールの間を通ってゴールを目指す作品。
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contents_list">
+                <div class="contents video_list">
+                    <iframe src="https://www.youtube.com/embed/mAd6NtVe0gU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="video_status neon clearfix">
+                        <ul>
+                            <li>name<p>名刺を出した瞬間に勝利する</p></li>
+                            <li>hardware<p>iPhone6s以降</p></li>
+                            <li>period<p>2019月3月</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="video_History neon">
+                    <ul>
+                        <li>Details<p>ARkitの触れの部分として、完全に遊び心で開発。</p></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contents_list">
+                <div class="contents video_list">
+                    <iframe src="https://www.youtube.com/embed/5ZlcN4MkHp0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="video_status neon clearfix">
+                        <ul>
+                            <li>name<p>ARイベンター</p></li>
+                            <li>hardware<p>スマホ</p></li>
+                            <li>period<p>2019月5月〜2019月8月</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="video_History neon">
+                    <ul>
+                        <li>
+                            Details<p>
+                                VRアカデミーのメンバーとチーム開発で2019/08/24に渋谷で行われた【VR FES Vol.5】に出展、
+                                アカデミーの学生作品を一覧で確認しているサーバと接続されておりwebサイトからいいねが可能、
+                                いいねの数と同期しており、いいねの数によってARで表示されるオーラのサイズも変化するようになっており一目でどれが人気の作品かがわかるようになっている。
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <script src="js/ityped.js"></script>
         <script src="js/particles.js"></script>
         <script src="js/particles_setting.js"></script>
         <script src="js/scroll-out.js"></script>
-        <script type="text/javascript">ScrollOut({targets: 'video,li,p,a'})</script>
-        </main>
-        <footer>
+        <script type="text/javascript">ScrollOut({ targets: 'video,li,p,a' })</script>
+    </main>
+    <footer>
         <div class="borderline"></div>
         <div class="footer_item">
             <ul>
-                    <li>
-                        <a href="https://twitter.com/BipYurilukebody">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span class="fa fa-twitter" aria-hidden="true"></span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/yurilukebody">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span class="fa fa-facebook" aria-hidden="true"></span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com/channel/UCFpNfJ95Sf91asactoLtlDQ/">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span class="fa fa-youtube" aria-hidden="true"></span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/riyotsutei/?hl=ja">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span class="fa fa-instagram" aria-hidden="true"></span>
-                        </a>
-                    </li>
-                </ul>
+                <li>
+                    <a href="https://twitter.com/BipYurilukebody">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span class="fa fa-twitter" aria-hidden="true"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/yurilukebody">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span class="fa fa-facebook" aria-hidden="true"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCFpNfJ95Sf91asactoLtlDQ/">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span class="fa fa-youtube" aria-hidden="true"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/riyotsutei/?hl=ja">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span class="fa fa-instagram" aria-hidden="true"></span>
+                    </a>
+                </li>
+            </ul>
             <div class="neon copyrightText" data-text="test_text">© 2019 Ryosuke.fujita All Rights Reserved.</div>
         </div>
-        </footer>
-        <!-- admax -->
-        <script src="https://adm.shinobi.jp/s/c91a23096fee7ba3b1a3ed17e9f00cef"></script>
-        <!-- admax -->
-    </body>
+    </footer>
+    <!-- admax -->
+    <script src="https://adm.shinobi.jp/s/c91a23096fee7ba3b1a3ed17e9f00cef"></script>
+    <!-- admax -->
+</body>
 </html>
