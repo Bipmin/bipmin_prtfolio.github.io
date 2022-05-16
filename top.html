@@ -1,143 +1,170 @@
 ﻿<!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>TOP</title>
-        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-        <!-- jQuery読み込み -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-        <!-- ityped読み込み -->
-        <script src="https://unpkg.com/ityped@0.0.5"></script>
-        <!-- スタイルシートの読み込み -->
-        <link rel="stylesheet" href="./css/reset.css">
-        <link rel="stylesheet" href="./css/hamburger.css">
-        <link rel="stylesheet" href="./css/common.css">
-        <link rel="stylesheet" href="./css/top.css">
-        <link rel="stylesheet" href="./css/footer.css">
-        <link rel="stylesheet" href="./css/profilse.css">
-    </head>
-    <body>
-        <header>
-            <div class="header_top">
-                <div id="nav-drawer">
-                    <input id="nav-input" type="checkbox" class="nav-unshown">
-                    <label id="nav-open" class="" for="nav-input"><span></span></label>
-                    <label class="nav-unshown" id="nav-close" for="nav-input"></label>
-                    <div id="nav-content" class="hamburgerList">
-                        <div><p class="neon">トップページ</p>
-                            <a href="./top.html" class="">
-                                <p class="neon">>&nbsp;&nbsp;トップ</p></a>
-                            <a href="./top.html#profilse" class="">
-                                <p class="neon">>&nbsp;&nbsp;自己紹介</p></a>
-                            <a href="./top.html#SNS" class="">
-                                <p class="neon">>&nbsp;&nbsp;SNS</p></a>
-                        </div>
-                        <div><p class="head neon">コンテンツページ</p>
-                            <a href="./contents.html" class="">
-                                <p class="neon">>&nbsp;&nbsp;コンテンツ</p></a>
-                        </div>
-                        <div><p class="head neon">アーカイブページ</p>
-                            <a href="#profilse" class="">
-                                <p class="neon">>&nbsp;&nbsp;アーカイブ</p></a>
-                        </div>
-                        <div><p class="head neon">お問い合わせページ</p>
-                            <a href="#profilse" class="">
-                                <p class="neon">>&nbsp;&nbsp;お問い合わせ</p></a>
-                        </div>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>TOP</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <!-- ityped読み込み -->
+    <script src="https://unpkg.com/ityped@0.0.5"></script>
+    <!-- スタイルシートの読み込み -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/hamburger.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/top.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/profilse.css">
+</head>
+<body>
+    <header>
+        <div class="header_top">
+            <div id="nav-drawer">
+                <input id="nav-input" type="checkbox" class="nav-unshown">
+                <label id="nav-open" class="" for="nav-input"><span></span></label>
+                <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+                <div id="nav-content" class="hamburgerList">
+                    <div>
+                        <p class="neon">トップページ</p>
+                        <a href="./top.html" class="">
+                            <p class="neon">>&nbsp;&nbsp;トップ</p>
+                        </a>
+                        <a href="./top.html#profilse" class="">
+                            <p class="neon">>&nbsp;&nbsp;自己紹介</p>
+                        </a>
+                        <a href="./top.html#SNS" class="">
+                            <p class="neon">>&nbsp;&nbsp;SNS</p>
+                        </a>
+                    </div>
+                    <div>
+                        <p class="head neon">コンテンツページ</p>
+                        <a href="./contents.html" class="">
+                            <p class="neon">>&nbsp;&nbsp;コンテンツ</p>
+                        </a>
+                    </div>
+                    <div>
+                        <p class="head neon">アーカイブページ</p>
+                        <a href="#profilse" class="">
+                            <p class="neon">>&nbsp;&nbsp;アーカイブ</p>
+                        </a>
+                    </div>
+                    <div>
+                        <p class="head neon">お問い合わせページ</p>
+                        <a href="#profilse" class="">
+                            <p class="neon">>&nbsp;&nbsp;お問い合わせ</p>
+                        </a>
                     </div>
                 </div>
             </div>
-            <img class="headerLogo" src="./images/383202.jpg">
-        </header>
-        <div id="particles"></div>
-        <main>
-            <div class="ityped_position">
-                <span id="ityped" class="ityped neon" data-text="test_text"></span>
+        </div>
+        <img class="headerLogo" src="./images/383202.jpg">
+    </header>
+    <div id="particles"></div>
+    <main>
+        <div class="ityped_position">
+            <span id="ityped" class="ityped neon" data-text="test_text"></span>
+        </div>
+        <div class="menu_box">
+            <div>
+                <a href="#profilse" class="hexagonA link_positionA">
+                    <span><p class="select_neon menu_boxA" data-text="test_text">自己紹介</p></span>
+                </a>
             </div>
-            <div class="menu_box">
-                <div>
-                    <a href="#profilse" class="hexagonA link_positionA">
-                    <span><p class="select_neon menu_boxA" data-text="test_text">自己紹介</p></span></a>
-                </div>
-                <div>
-                    <a href="./contents.html" class="hexagonA link_positionB">
-                    <span><p class="select_neon menu_boxA" data-text="test_text">コンテンツ</p></span></a>
-                </div>
-                <div>
-                    <a href="#" class="hexagonA link_positionC">
-                    <span><p class="select_neon menu_boxA" data-text="test_text">アーカイブ</p></span></a>
-                </div>
-                <div>
-                    <a href="#" class="hexagonA link_positionD">
-                    <span><p class="select_neon menu_boxA" data-text="test_text">お問い合わせ</p></span></a>
-                </div>
+            <div>
+                <a href="./contents.html" class="hexagonA link_positionB">
+                    <span><p class="select_neon menu_boxA" data-text="test_text">コンテンツ</p></span>
+                </a>
             </div>
-            <!-- そんなに見られると恥ずかしい/// -->
-            <div class="borderline"></div>
-            <div id="profilse" class="profilse">
-                <div class="profilse_box">
-                    <div class="profilse_face">
-                        <img class="profilse_img" src="./images/S__7004176.jpg">
-                    </div>
-                    <div class="profilse_status neon">
-                        <ul>
-                            <li>name<p>藤田 亮介</p></li>
-                            <li>age<p>27</p></li>
-                            <li>birthday<p>12月5日</p></li>
-                            <li>address<p>東京都墨田区</p></li>
-                        </ul>
-                    </div>
+            <div>
+                <a href="#" class="hexagonA link_positionC">
+                    <span><p class="select_neon menu_boxA" data-text="test_text">アーカイブ</p></span>
+                </a>
+            </div>
+            <div>
+                <a href="#" class="hexagonA link_positionD">
+                    <span><p class="select_neon menu_boxA" data-text="test_text">お問い合わせ</p></span>
+                </a>
+            </div>
+        </div>
+        <!-- そんなに見られると恥ずかしい/// -->
+        <div class="borderline"></div>
+        <div id="profilse" class="profilse">
+            <div class="profilse_box">
+                <div class="profilse_face">
+                    <img class="profilse_img" src="./images/S__7004176.jpg">
                 </div>
-                <div class="profilse_History neon">
+                <div class="profilse_status neon">
                     <ul>
-                        <li>History<p>1994年12月5日静岡県御殿場市にて生を受ける。</p>
-                        <p>中央歯科衛生士調理製菓専門学校卒業後、静岡県熱海市にあるホテルにて製菓の道を歩む
-                                それから約１年後、将来性に不安を感じ転職を決意した後、地元の転職フェアにてオファーを受け
-                                未経験ながらもIT業界に転職しPOSシステムの評価の業務を始める
-                                2018/08/25にで秋葉原にて行われた【VR FES Vol.2】のイベントにて初めてXRを体験し、
-                                XRの可能性を感じ開発者になりたいと決意し、後にVRアカデミーとMRアカデミーに通い、現在プログラマーとして日々精進を重ている
-                                </p></li>
-                        <li>skill set
-                                <p>PHP/Laravel：アプリケーション制作</p>
-                                <p>C#/ASP.NET :アプリケーション制作、ログ解析システム</p>
-                                <p>HTML/CSS : Webページ制作、サイト編集</p>
-                                <p>JavaScript/jQuery : 動的なWebページ作成</p>
-                                <p>unity : VRコンテンツの作成、ARkitを用いたARコンテンツの作成、スマホアプリ開発（iOS）</p>
-                                <p>UE4 : 簡単なゲームを作成（ブループリント）</p>
-                                <p>DB : MySQL、PostgreSQL、SQLserver、SQLite</p>
-                                <p>やる気、根気、勇気</p></li>
-                        <li>Anime have seen<p>まどかマギカ、ハッピーシュガーライフ、ノーゲームノーライフ、ソードアートオンライン、とある魔術の禁書目録、この素晴らしい世界に祝福を、
-コードギアス、ポプテピピック、鬼滅の刃、僕のヒーローアカデミア、ナルト、ドラゴンボール、ゾンビランドサガ、鋼の錬金術師、進撃の巨人、
-盾の勇者の成り上がり、はねバト、ハイスコアガール、おそ松さん、ゴールデンカムイ、けものフレンズ、あそびあそばせ、はたらく細胞、ガンダム、
-NEW GAME、けいおん、ばらかもん、Angel Beats、ひぐらしのなく頃に、交響詩篇エウレカセブン、監獄学園、ラブライブ、ワンパンマン、涼宮ハルヒの憂鬱、
-あの日見た花の名前を僕達はまだ知らない、CLANNAD、メイドインアビス、化物語、新世紀エヴァンゲリオン、うちのメイドがウザすぎる、
-デジモンアドベンチャー、幼女戦記、刀語、モブサイコ100、ベルセルク、七つの大罪、テニスの王子様、北斗の拳、ダンジョンに出会いを求めるのは間違っているだろうか、一週間フレンズ、賭博黙示録カイジ、ギャグマンガ日和、
-よんでますよ、アザゼルさん。、はたらく魔王さま！、男子高校生の日常、カッコカワイイ宣言！、坂本ですが？、荒川アンダーザブリッジ、
-僕は友達が少ない、金色のガッシュベル、黒子のバスケ、弱虫ペダル、Free!、寄生獣、東京喰種、らき☆すた、這いよれ！ニャル子さん、Fate/stay night、
-ケロロ軍曹、ジョジョの奇妙な冒険、バキ、Ｄｒ．ＳＴＯＮＥ、ケンガンアシュラ、慎重勇者、食戟のソーマetc. ※派生系は多くなる為記載なし</p></li>
-                        <li>Games ever played<p>
-    ダークソウル、キングダムハーツ、ペルソナ、モンスターハンター、テイルズオブ、ファイナルファンタジー、
-	SEKIRO、アーマードコア、デビルメイクライ、ゴッドオブウォー、ギアーズオブウォー、
-	メタルギアソリッド、ワンダと巨像、ニーア、地球防衛軍、PUBG、シティーズ、アサシンクリード、
-	鬼武者、ソニック、クラッシュバンディクー、バイオハザード、コール オブ デューティ、
-	スマッシュブラザーズ、ポケットモンスター、マリオ、ゼルダの伝説、ガンダム、デビルメイクライ、グランドセフトオート、
-	ドラゴンズドグマ、キャサリン、戦場のヴァルキュリア、メタルスラッグetc. ※派生系は多くなる為記載なし
-</p></li>
-                        <li class="Details">Details<p>血液型：A、身長：172、体重：58、血圧：130/80</p></li>
+                        <li>name<p>藤田 亮介</p></li>
+                        <li>age<p>27</p></li>
+                        <li>birthday<p>12月5日</p></li>
+                        <li>address<p>東京都墨田区</p></li>
                     </ul>
                 </div>
             </div>
+            <div class="profilse_History neon">
+                <ul>
+                    <li>
+                        History<p>1994年12月5日静岡県御殿場市にて生を受ける。</p>
+                        <p>
+                            中央歯科衛生士調理製菓専門学校卒業後、静岡県熱海市にあるホテルにて製菓の道を歩む
+                            それから約１年後、将来性に不安を感じ転職を決意した後、地元の転職フェアにてオファーを受け
+                            未経験ながらもIT業界に転職しPOSシステムの評価の業務を始める
+                            2018/08/25にで秋葉原にて行われた【VR FES Vol.2】のイベントにて初めてXRを体験し、
+                            XRの可能性を感じ開発者になりたいと決意し、後にVRアカデミーとMRアカデミーに通い、
+                            株式会社積木製作でXRエンジニアになり主にUnityを使ったシステムを担当、
+                            現在はプロジェクションマッピング協会に参加しメディアアーティストを目指している
+                        </p>
+                    </li>
+                    <li>
+                        skill set
+                        <p>PHP/Laravel：アプリケーション制作</p>
+                        <p>C#/ASP.NET :アプリケーション制作、ログ解析システム</p>
+                        <p>HTML/CSS : Webページ制作、サイト編集</p>
+                        <p>JavaScript/jQuery : 動的なWebページ作成</p>
+                        <p>unity : VRコンテンツの作成、ARkitを用いたARコンテンツの作成、スマホアプリ開発（iOS）</p>
+                        <p>UE4 : 簡単なゲームを作成（ブループリント）</p>
+                        <p>DB : MySQL、PostgreSQL、SQLserver、SQLite</p>
+                        <p>やる気、根気、勇気</p>
+                    </li>
+                    <li>
+                        Anime have seen<p>
+                            まどかマギカ、ハッピーシュガーライフ、ノーゲームノーライフ、ソードアートオンライン、とある魔術の禁書目録、この素晴らしい世界に祝福を、
+                            コードギアス、ポプテピピック、鬼滅の刃、僕のヒーローアカデミア、ナルト、ドラゴンボール、ゾンビランドサガ、鋼の錬金術師、進撃の巨人、
+                            盾の勇者の成り上がり、はねバト、ハイスコアガール、おそ松さん、ゴールデンカムイ、けものフレンズ、あそびあそばせ、はたらく細胞、ガンダム、
+                            NEW GAME、けいおん、ばらかもん、Angel Beats、ひぐらしのなく頃に、交響詩篇エウレカセブン、監獄学園、ラブライブ、ワンパンマン、涼宮ハルヒの憂鬱、
+                            あの日見た花の名前を僕達はまだ知らない、CLANNAD、メイドインアビス、化物語、新世紀エヴァンゲリオン、うちのメイドがウザすぎる、
+                            デジモンアドベンチャー、幼女戦記、刀語、モブサイコ100、ベルセルク、七つの大罪、テニスの王子様、北斗の拳、ダンジョンに出会いを求めるのは間違っているだろうか、一週間フレンズ、賭博黙示録カイジ、ギャグマンガ日和、
+                            よんでますよ、アザゼルさん。、はたらく魔王さま！、男子高校生の日常、カッコカワイイ宣言！、坂本ですが？、荒川アンダーザブリッジ、
+                            僕は友達が少ない、金色のガッシュベル、黒子のバスケ、弱虫ペダル、Free!、寄生獣、東京喰種、らき☆すた、這いよれ！ニャル子さん、Fate/stay night、
+                            ケロロ軍曹、ジョジョの奇妙な冒険、バキ、Ｄｒ．ＳＴＯＮＥ、ケンガンアシュラ、慎重勇者、食戟のソーマetc. ※派生系は多くなる為記載なし
+                        </p>
+                    </li>
+                    <li>
+                        Games ever played<p>
+                            ダークソウル、キングダムハーツ、ペルソナ、モンスターハンター、テイルズオブ、ファイナルファンタジー、
+                            SEKIRO、アーマードコア、デビルメイクライ、ゴッドオブウォー、ギアーズオブウォー、
+                            メタルギアソリッド、ワンダと巨像、ニーア、地球防衛軍、PUBG、シティーズ、アサシンクリード、
+                            鬼武者、ソニック、クラッシュバンディクー、バイオハザード、コール オブ デューティ、
+                            スマッシュブラザーズ、ポケットモンスター、マリオ、ゼルダの伝説、ガンダム、デビルメイクライ、グランドセフトオート、
+                            ドラゴンズドグマ、キャサリン、戦場のヴァルキュリア、メタルスラッグetc. ※派生系は多くなる為記載なし
+                        </p>
+                    </li>
+                    <li class="Details">Details<p>血液型：A、身長：172、体重：58、血圧：130/80</p></li>
+                </ul>
+            </div>
+        </div>
         <div class="profilse"></div>
         <script src="js/ityped.js"></script>
         <script src="js/particles.js"></script>
         <script src="js/particles_setting.js"></script>
         <script src="js/scroll-out.js"></script>
-        <script type="text/javascript">ScrollOut({targets: 'img,li,p,a'})</script>
-        </main>
-        <footer>
+        <script type="text/javascript">ScrollOut({ targets: 'img,li,p,a' })</script>
+    </main>
+    <footer>
         <div class="borderline"></div>
         <div id="SNS" class="footer_item">
             <ul>
@@ -180,10 +207,10 @@ NEW GAME、けいおん、ばらかもん、Angel Beats、ひぐらしのなく�
             </ul>
             <div class="neon copyrightText" data-text="test_text">© 2019 Ryosuke.fujita All Rights Reserved.</div>
         </div>
-        </footer>
-        <!-- admax -->
-        <script src="https://adm.shinobi.jp/s/c91a23096fee7ba3b1a3ed17e9f00cef"></script>
-        <!-- admax -->
-    </body>
+    </footer>
+    <!-- admax -->
+    <script src="https://adm.shinobi.jp/s/c91a23096fee7ba3b1a3ed17e9f00cef"></script>
+    <!-- admax -->
+</body>
 //aa
 </html>
